@@ -1,7 +1,7 @@
-<div class="card">
-  <h3 class="title text">Title</h3>
+<div class="card" *ngFor="let project of projects">
+  <h3 class="title text">{{project.title}}</h3>
 
   <div class="image"></div>
 
-  <h4 class="par text">he heh ehehehio iioeiorioe oieiooir io aoifoa o[ opoidpsf jsd os jpasjofsf ioo</h4>
+  <h5 class="par text">{{project.description}}</h5>
 </div>

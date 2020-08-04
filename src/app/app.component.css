@@ -1,5 +1,10 @@
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.title{
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(100,70,70,0.12);
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.name{
+  text-align: center;
+  color: rgb(100, 100, 100);
 }
